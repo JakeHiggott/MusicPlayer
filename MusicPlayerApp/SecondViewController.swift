@@ -10,14 +10,27 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var songLabel: UILabel!
+    @IBOutlet weak var songImageView: UIImageView!
+    
+    @IBAction func play(_ sender: Any) {
+    }
+    @IBAction func pause(_ sender: Any) {
+    }
+    @IBAction func prev(_ sender: Any) {
+    }
+    @IBAction func next(_ sender: Any) {
+    }
+    
+    @IBAction func Slider(_ sender: UISlider) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+       
     }
 
 

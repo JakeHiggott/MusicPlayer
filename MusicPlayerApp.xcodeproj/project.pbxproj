@@ -13,6 +13,10 @@
 		9E270DC320D801E300AC8C24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E270DC120D801E300AC8C24 /* Main.storyboard */; };
 		9E270DC520D801E700AC8C24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E270DC420D801E700AC8C24 /* Assets.xcassets */; };
 		9E270DC820D801E700AC8C24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E270DC620D801E700AC8C24 /* LaunchScreen.storyboard */; };
+		9E270DDD20D80FFA00AC8C24 /* Quietly_Concerned_-_Some_Distant_Shore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E270DD920D80FFA00AC8C24 /* Quietly_Concerned_-_Some_Distant_Shore.mp3 */; };
+		9E270DDE20D80FFA00AC8C24 /* Quietly_Concerned_-_Fight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E270DDA20D80FFA00AC8C24 /* Quietly_Concerned_-_Fight.mp3 */; };
+		9E270DDF20D80FFA00AC8C24 /* Barefoot_McCoy_-_Take_Me_Away.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E270DDB20D80FFA00AC8C24 /* Barefoot_McCoy_-_Take_Me_Away.mp3 */; };
+		9E270DE020D80FFA00AC8C24 /* THE_DLX_-_IDK.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E270DDC20D80FFA00AC8C24 /* THE_DLX_-_IDK.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,14 @@
 		9E270DC420D801E700AC8C24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E270DC720D801E700AC8C24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E270DC920D801E700AC8C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E270DD420D80FD300AC8C24 /* Quietly_Concerned_-_Some_Distant_Shore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Quietly_Concerned_-_Some_Distant_Shore.mp3"; sourceTree = "<group>"; };
+		9E270DD520D80FD300AC8C24 /* Quietly_Concerned_-_Fight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Quietly_Concerned_-_Fight.mp3"; sourceTree = "<group>"; };
+		9E270DD620D80FD300AC8C24 /* Barefoot_McCoy_-_Take_Me_Away.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Barefoot_McCoy_-_Take_Me_Away.mp3"; sourceTree = "<group>"; };
+		9E270DD720D80FD300AC8C24 /* THE_DLX_-_IDK.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "THE_DLX_-_IDK.mp3"; sourceTree = "<group>"; };
+		9E270DD920D80FFA00AC8C24 /* Quietly_Concerned_-_Some_Distant_Shore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Quietly_Concerned_-_Some_Distant_Shore.mp3"; sourceTree = "<group>"; };
+		9E270DDA20D80FFA00AC8C24 /* Quietly_Concerned_-_Fight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Quietly_Concerned_-_Fight.mp3"; sourceTree = "<group>"; };
+		9E270DDB20D80FFA00AC8C24 /* Barefoot_McCoy_-_Take_Me_Away.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Barefoot_McCoy_-_Take_Me_Away.mp3"; sourceTree = "<group>"; };
+		9E270DDC20D80FFA00AC8C24 /* THE_DLX_-_IDK.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "THE_DLX_-_IDK.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +54,7 @@
 			children = (
 				9E270DBA20D801E300AC8C24 /* MusicPlayerApp */,
 				9E270DB920D801E300AC8C24 /* Products */,
+				9E270DD320D80FD300AC8C24 /* Songs */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +76,32 @@
 				9E270DC420D801E700AC8C24 /* Assets.xcassets */,
 				9E270DC620D801E700AC8C24 /* LaunchScreen.storyboard */,
 				9E270DC920D801E700AC8C24 /* Info.plist */,
+				9E270DD820D80FFA00AC8C24 /* Songs */,
 			);
 			path = MusicPlayerApp;
+			sourceTree = "<group>";
+		};
+		9E270DD320D80FD300AC8C24 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				9E270DD420D80FD300AC8C24 /* Quietly_Concerned_-_Some_Distant_Shore.mp3 */,
+				9E270DD520D80FD300AC8C24 /* Quietly_Concerned_-_Fight.mp3 */,
+				9E270DD620D80FD300AC8C24 /* Barefoot_McCoy_-_Take_Me_Away.mp3 */,
+				9E270DD720D80FD300AC8C24 /* THE_DLX_-_IDK.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		9E270DD820D80FFA00AC8C24 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				9E270DD920D80FFA00AC8C24 /* Quietly_Concerned_-_Some_Distant_Shore.mp3 */,
+				9E270DDA20D80FFA00AC8C24 /* Quietly_Concerned_-_Fight.mp3 */,
+				9E270DDB20D80FFA00AC8C24 /* Barefoot_McCoy_-_Take_Me_Away.mp3 */,
+				9E270DDC20D80FFA00AC8C24 /* THE_DLX_-_IDK.mp3 */,
+			);
+			name = Songs;
+			path = ../../../Desktop/Songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +162,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E270DDE20D80FFA00AC8C24 /* Quietly_Concerned_-_Fight.mp3 in Resources */,
 				9E270DC820D801E700AC8C24 /* LaunchScreen.storyboard in Resources */,
+				9E270DE020D80FFA00AC8C24 /* THE_DLX_-_IDK.mp3 in Resources */,
 				9E270DC520D801E700AC8C24 /* Assets.xcassets in Resources */,
+				9E270DDF20D80FFA00AC8C24 /* Barefoot_McCoy_-_Take_Me_Away.mp3 in Resources */,
+				9E270DDD20D80FFA00AC8C24 /* Quietly_Concerned_-_Some_Distant_Shore.mp3 in Resources */,
 				9E270DC320D801E300AC8C24 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +328,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S4F6XAUD74;
 				INFOPLIST_FILE = MusicPlayerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +347,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S4F6XAUD74;
 				INFOPLIST_FILE = MusicPlayerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
